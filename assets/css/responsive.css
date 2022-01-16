@@ -1,0 +1,125 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area.header-sticky.sticky .mean-menu ul li {
+        margin-left: 15px;
+    }
+    .section-title p {
+        padding: 0 150px;
+    }
+    .single-counter-item h6 {
+        font-size: 18px;
+    }
+    .brand-img ul li {
+        padding: 0 15px;
+    }
+
+    .blog-meta h5 {
+        font-size: 15px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title p {
+        padding: 0 100px;
+    }
+    .banner-area {
+        min-height: 600px;
+    }
+    .about-content p {
+        text-align: justify;
+    }
+    .banner-social {
+        bottom: -50%;
+    }
+    .brand-img ul li img {
+        width: 100px;
+        height: 100px;
+    }
+    .about-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .brand-img ul li {
+        padding: 0 17px;
+    }.portfolio-manu button {
+        padding: 10px 30px;
+    }
+    .footer-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content ul li {
+        font-size: 10px;
+    }
+
+    .banner-area {
+        padding: 100px 0;
+    }
+
+    .section-title p {
+        padding: 0;
+    }
+
+    .about-img::after {
+        left: 3%;
+        top: 3%;
+    }
+
+    .about-content p {
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .brand-img ul li img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .brand-img ul li {
+        padding: 5px 1px;
+    }
+
+    .banner-social {
+        position: absolute;
+        right: 0;
+        bottom: -40%;
+        left: 0;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .footer-list ul li {
+        padding: 0 5px;
+    }
+
+    .banner-social {
+        position: absolute;
+        right: 0;
+        bottom: -50%;
+        left: 0;
+    }
+
+}
